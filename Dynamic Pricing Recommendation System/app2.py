@@ -85,7 +85,7 @@ def query_llm(prompt: str) -> str:
         api_url = "https://router.huggingface.co/v1/chat/completions"
         
         headers = {
-            "Authorization": f"Bearer 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",
+            "Authorization": f"Bearer HF_TOKEN",
         }
         
         payload = {
@@ -318,4 +318,5 @@ st.markdown("""
 <div style='text-align: center; color: white;'>
     <p>Powered by Machine Learning | Dynamic Pricing Recommendation System</p>
 </div>
+
 """, unsafe_allow_html=True)
